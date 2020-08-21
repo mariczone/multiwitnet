@@ -2,4 +2,5 @@
 for name in $(docker ps --format '{{.Names}}') 
 do 
     echo "$name"
+    docker exec $name witnet node nodeStats
 done
