@@ -141,3 +141,213 @@ services:
       - "21356:21337"
     volumes:
       - "$HOME/.witnet20:/.witnet:rw"
+  node21:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21357:21337"
+    volumes:
+      - "$HOME/.witnet21:/.witnet:rw"
+  node22:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21358:21337"
+    volumes:
+      - "$HOME/.witnet22:/.witnet:rw"
+  node23:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21359:21337"
+    volumes:
+      - "$HOME/.witnet23:/.witnet:rw"
+  node24:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21360:21337"
+    volumes:
+      - "$HOME/.witnet24:/.witnet:rw"
+  node25:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21361:21337"
+    volumes:
+      - "$HOME/.witnet25:/.witnet:rw"
+  node26:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21362:21337"
+    volumes:
+      - "$HOME/.witnet26:/.witnet:rw"
+  node27:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21363:21337"
+    volumes:
+      - "$HOME/.witnet27:/.witnet:rw"
+  node28:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21364:21337"
+    volumes:
+      - "$HOME/.witnet28:/.witnet:rw"
+  node29:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21365:21337"
+    volumes:
+      - "$HOME/.witnet29:/.witnet:rw"
+  node30:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21366:21337"
+    volumes:
+      - "$HOME/.witnet30:/.witnet:rw"
+  node31:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21367:21337"
+    volumes:
+      - "$HOME/.witnet31:/.witnet:rw"
+  node32:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21368:21337"
+    volumes:
+      - "$HOME/.witnet32:/.witnet:rw"
+  node33:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21369:21337"
+    volumes:
+      - "$HOME/.witnet33:/.witnet:rw"
+  node34:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21370:21337"
+    volumes:
+      - "$HOME/.witnet34:/.witnet:rw"
+  node35:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21371:21337"
+    volumes:
+      - "$HOME/.witnet35:/.witnet:rw"
+  node36:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21371:21337"
+    volumes:
+      - "$HOME/.witnet36:/.witnet:rw"
+  node37:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21372:21337"
+    volumes:
+      - "$HOME/.witnet37:/.witnet:rw"
+  node38:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21373:21337"
+    volumes:
+      - "$HOME/.witnet38:/.witnet:rw"
+  node39:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21374:21337"
+    volumes:
+      - "$HOME/.witnet39:/.witnet:rw"
+  node40:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21375:21337"
+    volumes:
+      - "$HOME/.witnet40:/.witnet:rw"
+  node41:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21376:21337"
+    volumes:
+      - "$HOME/.witnet41:/.witnet:rw"
+  node42:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21377:21337"
+    volumes:
+      - "$HOME/.witnet42:/.witnet:rw"
+  node43:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21378:21337"
+    volumes:
+      - "$HOME/.witnet43:/.witnet:rw"
+  node44:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21379:21337"
+    volumes:
+      - "$HOME/.witnet44:/.witnet:rw"
+  node45:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21380:21337"
+    volumes:
+      - "$HOME/.witnet45:/.witnet:rw"
+  node46:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21381:21337"
+    volumes:
+      - "$HOME/.witnet46:/.witnet:rw"
+  node47:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21382:21337"
+    volumes:
+      - "$HOME/.witnet47:/.witnet:rw"
+  node48:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21383:21337"
+    volumes:
+      - "$HOME/.witnet48:/.witnet:rw"
+  node49:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21384:21337"
+    volumes:
+      - "$HOME/.witnet49:/.witnet:rw"
+  node50:
+    image: witnet/witnet-rust
+    restart: unless-stopped
+    ports:
+      - "21385:21337"
+    volumes:
+      - "$HOME/.witnet50:/.witnet:rw"
