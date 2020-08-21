@@ -250,104 +250,104 @@ services:
     image: witnet/witnet-rust
     restart: unless-stopped
     ports:
-      - "21371:21337"
+      - "21372:21337"
     volumes:
       - "$HOME/.witnet36:/.witnet:rw"
   node37:
     image: witnet/witnet-rust
     restart: unless-stopped
     ports:
-      - "21372:21337"
+      - "21373:21337"
     volumes:
       - "$HOME/.witnet37:/.witnet:rw"
   node38:
     image: witnet/witnet-rust
     restart: unless-stopped
     ports:
-      - "21373:21337"
+      - "21374:21337"
     volumes:
       - "$HOME/.witnet38:/.witnet:rw"
   node39:
     image: witnet/witnet-rust
     restart: unless-stopped
     ports:
-      - "21374:21337"
+      - "21375:21337"
     volumes:
       - "$HOME/.witnet39:/.witnet:rw"
   node40:
     image: witnet/witnet-rust
     restart: unless-stopped
     ports:
-      - "21375:21337"
+      - "21376:21337"
     volumes:
       - "$HOME/.witnet40:/.witnet:rw"
   node41:
     image: witnet/witnet-rust
     restart: unless-stopped
     ports:
-      - "21376:21337"
+      - "21377:21337"
     volumes:
       - "$HOME/.witnet41:/.witnet:rw"
   node42:
     image: witnet/witnet-rust
     restart: unless-stopped
     ports:
-      - "21377:21337"
+      - "21378:21337"
     volumes:
       - "$HOME/.witnet42:/.witnet:rw"
   node43:
     image: witnet/witnet-rust
     restart: unless-stopped
     ports:
-      - "21378:21337"
+      - "21379:21337"
     volumes:
       - "$HOME/.witnet43:/.witnet:rw"
   node44:
     image: witnet/witnet-rust
     restart: unless-stopped
     ports:
-      - "21379:21337"
+      - "21380:21337"
     volumes:
       - "$HOME/.witnet44:/.witnet:rw"
   node45:
     image: witnet/witnet-rust
     restart: unless-stopped
     ports:
-      - "21380:21337"
+      - "21381:21337"
     volumes:
       - "$HOME/.witnet45:/.witnet:rw"
   node46:
     image: witnet/witnet-rust
     restart: unless-stopped
     ports:
-      - "21381:21337"
+      - "21382:21337"
     volumes:
       - "$HOME/.witnet46:/.witnet:rw"
   node47:
     image: witnet/witnet-rust
     restart: unless-stopped
     ports:
-      - "21382:21337"
+      - "21383:21337"
     volumes:
       - "$HOME/.witnet47:/.witnet:rw"
   node48:
     image: witnet/witnet-rust
     restart: unless-stopped
     ports:
-      - "21383:21337"
+      - "21384:21337"
     volumes:
       - "$HOME/.witnet48:/.witnet:rw"
   node49:
     image: witnet/witnet-rust
     restart: unless-stopped
     ports:
-      - "21384:21337"
+      - "21385:21337"
     volumes:
       - "$HOME/.witnet49:/.witnet:rw"
   node50:
     image: witnet/witnet-rust
     restart: unless-stopped
     ports:
-      - "21385:21337"
+      - "21386:21337"
     volumes:
       - "$HOME/.witnet50:/.witnet:rw"
