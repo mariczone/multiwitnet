@@ -1,1 +1,1 @@
-../bertux-operator-stable/getReputation.sh
+docker-compose ps -q | parallel docker exec {} witnet node getReputation

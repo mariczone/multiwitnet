@@ -1,1 +1,1 @@
-../bertux-operator-stable/getPeers.sh
+docker-compose ps -q | parallel docker exec {} witnet node getPeers

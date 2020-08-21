@@ -1,1 +1,1 @@
-../bertux-operator-stable/nodeStats.sh
+docker-compose ps -q | parallel docker exec {} witnet node nodeStats

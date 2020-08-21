@@ -1,1 +1,1 @@
-../bertux-operator-stable/install.sh
+apt install -y parallel

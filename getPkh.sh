@@ -1,1 +1,1 @@
-../bertux-operator-stable/getPkh.sh
+docker-compose ps -q | parallel docker exec {} witnet node getPkh
