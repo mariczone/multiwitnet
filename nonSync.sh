@@ -1,3 +1,5 @@
+#!/bin/bash
+
 list=()
 for name in $(docker ps --format '{{.Names}}') 
 do 
